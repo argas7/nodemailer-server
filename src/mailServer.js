@@ -12,7 +12,7 @@ module.exports = async ({
   const tranporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: process.env.USER,
+      user: process.env.EMAIL,
       pass: process.env.PASSWORD,
     },
   });
