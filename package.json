@@ -1,0 +1,13 @@
+{
+  "name": "nodemailer-server",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "repository": "https://github.com/argas7/nodemailer-server.git",
+  "author": "Alyson Renan",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.10"
+  }
+}
